@@ -10,6 +10,7 @@ $(document).ready(function () {
   var email_validation_error = true;
 
   function username_validation() {
+    var reg = new RegExp("^[a-zA-Z0-9]+$");
     var username_val = $("#username").val();
     if (username_val.length == "") {
       $("#usernamevalidation").html("Username Can be empty");
@@ -17,13 +18,18 @@ $(document).ready(function () {
       $("#usernamevalidation").css("color", "red");
       user_Error = false;
       return false;
-    } else {
-      $("#usernamevalidation").hide();
     }
 
     if (username_val.length < 3 || username_val.length > 10) {
       $("#usernamevalidation").show();
       $("#usernamevalidation").html("Username should be between 3 to 10");
+      $("#usernamevalidation").css("color", "red");
+      user_Error = false;
+      return false;
+    }
+    if (!reg.test(username_val)) {
+      $("#usernamevalidation").html("Username Is not valid");
+      $("#usernamevalidation").show();
       $("#usernamevalidation").css("color", "red");
       user_Error = false;
       return false;
@@ -33,6 +39,9 @@ $(document).ready(function () {
   }
 
   function password_validation() {
+    var reg = new RegExp(
+      "^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,}$"
+    );
     var password_val = $("#password").val();
     if (password_val.length == "") {
       $("#passwordvalidation").show();
@@ -40,13 +49,10 @@ $(document).ready(function () {
       $("#passwordvalidation").css("color", "red");
       password_error = false;
       return false;
-    } else {
-      $("#passwordvalidation").hide();
     }
-
-    if (password_val.length <= 8) {
+    if (!reg.test(password_val)) {
       $("#passwordvalidation").show();
-      $("#passwordvalidation").html("Password is less than 8 characters");
+      $("#passwordvalidation").html("Password is Not Valid");
       $("#passwordvalidation").css("color", "red");
       password_error = false;
       return false;
