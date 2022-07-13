@@ -1,0 +1,25 @@
+.images {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.images img {
+  height: 200px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.ash {
+  padding: 10px;
+  background-color: yellow;
+  text-decoration: none;
+  border-radius: 10px;
+  margin-left: 50%;
+}
+
+body {
+  background-color: aqua;
+}
