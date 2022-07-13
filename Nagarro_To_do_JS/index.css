@@ -1,0 +1,99 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  animation-name: trans;
+  animation-timing-function: ease-in-out;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes trans {
+  0% {
+    background-color: aqua;
+  }
+  25% {
+    background-color: aquamarine;
+  }
+  50% {
+    background-color: rgb(25, 204, 195);
+  }
+  75% {
+    background-color: rgb(61, 171, 214);
+  }
+  100% {
+    background-color: rgb(119, 255, 255);
+  }
+}
+
+.contain {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.box {
+  background-color: #293241;
+  border-radius: 5px;
+  min-width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 500px;
+}
+.input {
+  margin-top: 20px;
+  padding: 10px;
+  width: 80%;
+}
+.Todo {
+  background-color: antiquewhite;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  min-width: 80%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#text-input {
+  padding: 10px;
+  width: 75%;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+#text-button {
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
+
+.element {
+  width: 90%;
+  padding: 10px;
+  background-color: grey;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+.error {
+  color: red;
+  display: none;
+  background-color: whitesmoke;
+  padding: 10px;
+  width: 75%;
+  border: none;
+  outline: none;
+}
+
+.fa-trash {
+  float: right;
+  margin: 0 5px;
+}
+.fa-check {
+  float: right;
+  margin: 0 5px;
+}
