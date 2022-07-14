@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#cross {
+  float: right;
+  padding: 2px;
+  margin-top: 2px;
+  border: none;
+}
+
+.card {
+  min-width: 300px;
+}
+
+input,
+label,
+.card-header {
+  padding: 8px;
+  font-size: large;
+  margin: 5px 0;
+}
+
+.card-header {
+  font-weight: 700;
+}
+
+#data {
+  display: none;
+}
+
+#submit {
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+
+#user_invalid,
+#email_invalid {
+  display: none;
+  padding: 4px;
+  background-color: rgb(255, 82, 82);
+  color: whitesmoke;
+  font-weight: 500;
+}
+
+#forms {
+  display: flex;
+  flex-direction: column;
+}
