@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image-Slider</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/0eaae9cbe1.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container w-75 d-flex flex-row justify-content-around">
+        <div id="lbutton" class="d-flex flex-column justify-content-center">
+            <button id="la-button"><i class="fa-solid fa-arrow-left"></i></button>
+        </div>
+        <div class="image_section w-75">
+            <div class="image">
+                <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bmF0dXJhbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60"
+                    alt="" class="w-100">
+            </div>
+            <div class="image">
+                <img src="https://images.unsplash.com/photo-1592743263126-bb241ee76ac7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bmF0dXJhbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60"
+                    alt="" class="w-100">
+            </div>
+            <div class="image">
+                <img src="https://images.unsplash.com/reserve/bOvf94dPRxWu0u3QsPjF_tree.jpg?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bmF0dXJhbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60"
+                    alt="" class="w-100">
+            </div>
+            <div class="image">
+                <img src="https://images.unsplash.com/photo-1530543591690-29750de55028?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+                    alt="" class="w-100">
+            </div>
+        </div>
+        <div id="rbutton" class="d-flex flex-column justify-content-center">
+            <button id="ra-button"><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+    </div>
+    <div class="w-100 d-flex flex-row justify-content-center">
+        <button class="img-pos"></button>
+        <button class="img-pos"></button>
+        <button class="img-pos"></button>
+        <button class="img-pos"></button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
