@@ -1,0 +1,38 @@
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 5px solid black;
+}
+
+.data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+button {
+  margin: 5px;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+#blue {
+  background-color: blue;
+}
+#yellow {
+  background-color: yellow;
+}
+#green {
+  background-color: green;
+}
+#black {
+  background-color: black;
+  color: white;
+}
+
+#textData {
+  outline: none;
+}
