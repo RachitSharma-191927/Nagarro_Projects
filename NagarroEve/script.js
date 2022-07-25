@@ -3,7 +3,7 @@ $(document).ready(function () {
     $(".data").css("backgroundColor", "blue");
     $("#textData").css("color", "white");
     $("#textData").css("backgroundColor", "blue");
-    $("#textData").css("borderColor", "black");
+    $("#textData").css("borderColor", "white");
   });
   $("#black").click(function () {
     $(".data").css("backgroundColor", "black");
