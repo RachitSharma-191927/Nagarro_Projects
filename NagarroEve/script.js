@@ -19,8 +19,8 @@ $(document).ready(function () {
   });
   $("#green").click(function () {
     $(".data").css("backgroundColor", "green");
-    $("#textData").css("color", "white");
+    $("#textData").css("color", "black");
     $("#textData").css("backgroundColor", "green");
-    $("#textData").css("borderColor", "white");
+    $("#textData").css("borderColor", "black");
   });
 });
