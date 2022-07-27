@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body {
   margin: 0px;
   padding: 0px;
@@ -8,7 +11,7 @@ body {
 .portfolio {
   width: 100%;
   height: 90vh;
-  background-size: 100% 100vh;
+  background-size: cover;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -16,7 +19,6 @@ body {
 
 .information {
   color: white;
-  /* background-colosr: white; */
   width: 35%;
   height: 50vh;
 }
@@ -66,10 +68,14 @@ nav {
   height: 10vh;
   font-size: larger;
   color: white;
+  position: sticky;
 }
 
-.front div:hover,
-.back div:hover {
+a {
+  color: white;
+}
+
+a:hover {
   color: rgb(134, 132, 132);
   cursor: pointer;
 }
@@ -91,4 +97,22 @@ nav {
   justify-content: space-around;
   align-items: center;
   flex: 1;
+}
+
+#Skills {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.Technical,
+.NonTechnical {
+  border: 2px solid black;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  height: 400px;
+  padding: 20px;
 }
