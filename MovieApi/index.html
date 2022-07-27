@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Search</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon"
+        href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHsAAAB7CAMAAABjGQ9NAAAAyVBMVEX///9YWFr///0PdLwRdLj///r8//5NTU8QdLpTU1VWVlcAcMAAaa4AbbMAcbnl5eUAY6kAbLgAa7oLdcG7u7tISEj39/d7e3t0dHQ9PT0sebOmpqbNzc1EREZmm8Hw8PBoaGmdnZ7q9PW+1+mdwtmEssuFr8+Xu9nd7fHO4eoxgbsAZLYAYq1vpcmz0+GrytxCibldmMUAWKYMb6tSkcWuxNuJiYo8jMZJcpLZ2dgZaZ9VWWFVT0suTWIAXbRCSlAmV3kAYJzDztjzhpkCAAAERklEQVRoge2YaXfiNhSGZUmWZRsMtgxhX8xmO4Chpp5mMk2X//+jeiUHwpyQ+dCgaT/oOTnEkoBX9+ouOiBkMBgMBoPBYDAYDAaDwWAw/DdgrF5tfDV1PdAJY6DOksVytV6vN/sUhpjhnyMOMtk6f2w3wujxJdpu6W6PbJvpVgWjwcai3Aac+mG7PByPx8Ng+8vLOrHBdr3acLD7PAwoieikSBM5ycD9u0F7w2y94jZKJqBMo3yTSOdfoi4pDnmqUxnsTvOQUp+uEikMQYfkMcvgs1kx2Ku3aBEGmbQMKfcHWX3wrzq4fsLJoYCY06KNbJyWgorwxG4GNWxg96uePAc7EyoECXfwfMs6BhtaLnRIg8vZsUl5dFSl5LsV++J9VKRYS5XZNEou8uTddzN2Ti4GuX/7QD5JSgkljey9WVeWwrlkdxcGL69DwsM1JNVoXs1b5wUmC+xksmAyyuRfdvcKA5ndIFy0oaJUfdd1OvFladluBmI7YedN3rvEgNkrn4PZGA07FuB1nl6XsoYglJNodd5k987aED9w2ryZ2tOZJ7Utp1JKGB2h0BFBBJ3Wvr57mNso3RIicoRix6pxuirKkpJwCuok3GvqJAwVEXz9GqEHV3pcasfKxKIpHcIJCQ5ITwtnaOdzEexxS0q7PU++qLg+CVD+EhBCIl19DJ8CKmiKhuByz1U76E9lUL8QQsOMQ+r7K11OH4BbBwmSp+0MkQw4+AdJDxYHOVqD50WpqYEyCiGVo6ex1G6piPNmXcwGoB0ubUh+uFDoaiSccJ6jyq0PuiUjfTxC+y0vCU0ZOkSUBhMt0YbBbtLcYeXyEUyoTVRoEsKdUUoumxyKfaLl5oAHoJ0pV1tTGI9kdetklAvSXsgWAs6njaWOHobtE/ePrOdanjOXE12Ituf+bwFo54ksuZMm58FJx1WV4V3wWLQg0jynLuSQbF7/qyC8uZZ7w4smpPj2Roe9A0VUJiq5e/W4NX7+9jslZdBIlTb7IgjxdxqU4ebwspN+ti7N8+H521eo5P5JuZnhTQhpOEi0iG8XKr68860hdv4oiUzuuqLgVFaAsLi/MBzjUrURtzpPdft/gpdJg8mklje2iQ9d5YTu3r8x3IpbXl1PzlR/+UJER5VWcIlF+8em8P0UtT7+mn9N3AHx2ds4mwDHDPKvHjM1/luHNNRR2UDOVyUZ2vbrw2UGHrtPtz77aWKINXf2dpxK6+3XDvnbA8bx7c9+GhlsTnU1ocQvA7U/LS4Hpsrr1Q/eEY9+sPg5Wo60/OHD9bkujytxT+b47LZjuw86pUF8BjXddYfT90uxpc/hNd1K+X0Wf6/eHfU+8MZdGc0cD1qpW13ku6O51RnqV5bE1tj1LLczdntVVfWsfr8/vHcV/5in4Ww8dlzHcTr9vlXpPuhrZBmZjuLhfD4fjn7CMRsMBoPBYDAYDAaDwWAwGAz/T/4B92xJPCDq918AAAAASUVORK5CYII=">
+</head>
+
+<body>
+    <div id="detail" class="bg-dark">
+        <div class="container d-flex justify-content-center align-items-center">
+            <div class="card h-100">
+                <div class="card-header d-flex">
+                    <input type="text" id="MovieName" placeholder="Enter Your Movie Name">
+                    <button class="bg-danger" id="submit">submit</button>
+                </div>
+                <div id="error">Invalid Movie Name</div>
+                <div class="card-footer" id="details">
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
