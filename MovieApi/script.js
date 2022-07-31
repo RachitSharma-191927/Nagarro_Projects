@@ -11,7 +11,7 @@ button.addEventListener("click", async () => {
     div.innerHTML = " ";
     return;
   }
-  await fetch(`http://www.omdbapi.com/?t=${input.value}&apikey=c45e03ec`)
+  await fetch(`https://www.omdbapi.com/?t=${input.value}&apikey=c45e03ec`)
     .then((e) => {
       error.style.display = "none";
       var data = e.json();
