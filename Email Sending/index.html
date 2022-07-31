@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Sending</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="data">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+        <label for="text">
+            Enter Your Message
+        </label>
+        <textarea name="" id="text" cols="30" rows="10"></textarea>
+        <button id="submit">Submit</button>
+        </div>
+        
+    </div>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

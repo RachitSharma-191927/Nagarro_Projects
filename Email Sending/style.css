@@ -1,0 +1,44 @@
+body{
+    background-color: aqua;
+}
+
+
+
+
+#container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    color:white;
+    font-size:large;
+}
+
+#data{
+    width:30%;
+    height: 60%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding:10px;
+}
+
+input,label,textarea,button{
+    width:80%;
+    padding: 5px;
+    margin:5px;
+    font-size: large;
+    font-family:  Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#submit{
+    width:100px;
+}
+
+input{
+    border:none;
+    outline:none;
+    border-radius: 2px;
+}
