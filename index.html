@@ -1,220 +1,404 @@
 <!DOCTYPE html>
 
 <head>
-    <title>Nagarro Main Page</title>
-    <script src="https://kit.fontawesome.com/0eaae9cbe1.js" crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&display=swap" rel="stylesheet">
-    <style>
-        body {
-            background-color: black;
-            color: whitesmoke;
-        }
+  <title>Nagarro Main Page</title>
+  <script
+    src="https://kit.fontawesome.com/0eaae9cbe1.js"
+    crossorigin="anonymous"
+  ></script>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+    crossorigin="anonymous"
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&display=swap"
+    rel="stylesheet"
+  />
+  <style>
+    body {
+      background-color: black;
+      color: whitesmoke;
+    }
 
-        .personal {
-            font-family: 'Edu NSW ACT Foundation', cursive;
-            display: flex;
-            flex-direction: column;
-        }
+    .personal {
+      font-family: "Edu NSW ACT Foundation", cursive;
+      display: flex;
+      flex-direction: column;
+    }
 
-        .contain {
-            display: flex;
-            justify-content: space-evenly;
-            align-items: center;
-            flex-direction: row;
-            flex-wrap: wrap;
-            min-width: 500px;
-            margin: 50px;
-        }
+    .contain {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+      min-width: 500px;
+      margin: 50px;
+    }
 
-        .WebLinks {
-            min-width: 400px;
-            margin-top: 20px;
-        }
+    .WebLinks {
+      min-width: 400px;
+      margin-top: 20px;
+    }
 
-        th,
-        td {
-            color: whitesmoke;
-            font-weight: 700;
-        }
+    th,
+    td {
+      color: whitesmoke;
+      font-weight: 700;
+    }
 
-        #user {
-            text-align: center;
+    #user {
+      text-align: center;
+    }
 
-        }
-
-        #user img {
-            border-radius: 50%;
-        }
-    </style>
+    #user img {
+      border-radius: 50%;
+    }
+  </style>
 </head>
 
 <body>
-
-    <div class="contain">
-        <div class="personal">
-            <div id="user">
-                <img src="https://drive.google.com/uc?export=view&id=1HQnc5uhl8Iq_fDzTUKtWbugP-6UHQwpI" width="40%"
-                    alt="">
-            </div>
-            <h3 class="mt-5">Name : Rachit Sharma</h3>
-            <h3>College : Central University Of Haryana</h3>
-            <h3>Email : rachitsharma3642@gmail.com </h3>
-        </div>
-        <table class="table w-50 WebLinks">
-            <thead>
-                <tr>
-                    <th colspan="3">Project</th>
-                    <th scope="col">Hosting</th>
-                    <th scope="col">Github</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td colspan="3">Portfolio</td>
-                    <td><a href="Portfolio/index.html" class="btn btn-success"><i class="fa-solid fa-link"></i></a></td>
-                    <td><a href="https://github.com/RachitSharma-191927/Nagarro_Projects/tree/master/Portfolio"
-                            class="btn btn-primary"><i class="fa-brands fa-github"></i></a></td>
-                </tr>
-                <tr>
-                    <td colspan="3">Pokemon</td>
-                    <td><a href="Pokemon/index.html" class="btn btn-success"><i class="fa-solid fa-link"></i></a></td>
-                    <td><a href="https://github.com/RachitSharma-191927/Nagarro_Projects/tree/master/Pokemon"
-                            class="btn btn-primary"><i class="fa-brands fa-github"></i></a></td>
-                </tr>
-                <tr>
-                    <td colspan="3">TO DO List Jquery</td>
-                    <td><a href="To_Do_List_Jquery/index.html" class="btn btn-success"><i
-                                class="fa-solid fa-link"></i></a></td>
-                    <td> <a href="https://github.com/RachitSharma-191927/Nagarro_Projects/tree/master/To_Do_List_Jquery"
-                            class="btn btn-primary"><i class="fa-brands fa-github"></i></a></td>
-                </tr>
-                <tr>
-                    <td colspan="3">TO DO List JS</td>
-                    <td><a href="Nagarro_To_do_JS/index.html" class="btn btn-success"><i
-                                class="fa-solid fa-link"></i></a></td>
-                    <td><a href="https://github.com/RachitSharma-191927/Nagarro_Projects/tree/master/Nagarro_To_do_JS"
-                            class="btn btn-primary"><i class="fa-brands fa-github"></i></a></td>
-                </tr>
-                <tr>
-                    <td colspan="3">Cricket Match Score</td>
-                    <td><a href="cricket_match/index.html" class="btn btn-success"><i class="fa-solid fa-link"></i></a>
-                    </td>
-                    <td> <a href="https://github.com/RachitSharma-191927/Nagarro_Projects/tree/master/cricket_match"
-                            class="btn btn-primary"><i class="fa-brands fa-github"></i></a></td>
-                </tr>
-                <tr>
-                    <td colspan="3">Form Validations</td>
-                    <td><a href="NagarroFormValidation/index.html" class="btn btn-success"><i
-                                class="fa-solid fa-link"></i></a></td>
-                    <td><a href="https://github.com/RachitSharma-191927/Nagarro_Projects/tree/master/NagarroFormValidation"
-                            class="btn btn-primary"><i class="fa-brands fa-github"></i></a></td>
-                </tr>
-                <tr>
-                    <td colspan="3">Text Copy Website</td>
-                    <td><a href="Nagarro_Text_copy/index.html" class="btn btn-success"><i
-                                class="fa-solid fa-link"></i></a></td>
-                    <td><a href="https://github.com/RachitSharma-191927/Nagarro_Projects/tree/master/Nagarro_Text_copy"
-                            class="btn btn-primary"><i class="fa-brands fa-github"></i></a></td>
-                </tr>
-                <tr>
-                    <td colspan="3">Pop Up Website</td>
-                    <td><a href="POP_up/" class="btn btn-success"><i class="fa-solid fa-link"></i></a></td>
-                    <td><a href="https://github.com/RachitSharma-191927/Nagarro_Projects/tree/master/POP_up"
-                            class="btn btn-primary"><i class="fa-brands fa-github"></i></a></td>
-                </tr>
-                <tr>
-                    <td colspan="3">Number Fetch</td>
-                    <td><a href="NumberFetch/index2.html" class="btn btn-success"><i class="fa-solid fa-link"></i></a></td>
-                    <td><a href="https://github.com/RachitSharma-191927/Nagarro_Projects/tree/master/NumberFetch"
-                            class="btn btn-primary"><i class="fa-brands fa-github"></i></a></td>
-                </tr>
-                <tr>
-                    <td colspan="3">Image Slider</td>
-                    <td><a href="Image_Slider/index.html" class="btn btn-success"><i class="fa-solid fa-link"></i></a>
-                    </td>
-                    <td><a href="https://github.com/RachitSharma-191927/Nagarro_Projects/tree/master/Image-Slider"
-                            class="btn btn-primary"><i class="fa-brands fa-github"></i></a></td>
-                </tr>
-                <tr>
-                    <td colspan="3">Weight Converter</td>
-                    <td><a href="NagarroWeightConverter/index.html" class="btn btn-success"><i
-                                class="fa-solid fa-link"></i></a>
-                    </td>
-                    <td><a href="https://github.com/RachitSharma-191927/Nagarro_Projects/tree/master/NagarroWeightConverter/index.html"
-                            class="btn btn-primary"><i class="fa-brands fa-github"></i></a></td>
-                </tr>
-                <tr>
-                    <td colspan="3">Server BackEnd</td>
-
-                    <td><a href="https://github.com/RachitSharma-191927/Nagarro_Projects/tree/master/CreatingServer"
-                            class="btn btn-primary"><i class="fa-brands fa-github"></i></a></td>
-                </tr>
-                <tr>
-                    <td colspan="3">EJS Sending Node</td>
-
-                    <td><a href="https://github.com/RachitSharma-191927/Nagarro_Projects/tree/master/EjsSending"
-                            class="btn btn-primary"><i class="fa-brands fa-github"></i></a></td>
-                </tr>
-                <tr>
-                    <td colspan="3">Mongo DB connection</td>
-
-                    <td><a href="https://github.com/RachitSharma-191927/Nagarro_Projects/tree/master/MongoDBConnection"
-                            class="btn btn-primary"><i class="fa-brands fa-github"></i></a></td>
-                </tr>
-                <tr>
-                    <td colspan="3">MY-Sql Connection</td>
-
-                    <td><a href="https://github.com/RachitSharma-191927/Nagarro_Projects/tree/master/MysqlDatabaseConnection"
-                            class="btn btn-primary"><i class="fa-brands fa-github"></i></a></td>
-                </tr>
-                <tr>
-                    <td colspan="3">Theme Changer</td>
-                    <td><a href="ThemeChanger/index.html" class="btn btn-success"><i class="fa-solid fa-link"></i></a>
-                    </td>
-                    <td><a href="https://github.com/RachitSharma-191927/Nagarro_Projects/tree/master/ThemeChanger"
-                            class="btn btn-primary"><i class="fa-brands fa-github"></i></a></td>
-                </tr>
-                <tr>
-                    <td colspan="3">Calculator Jquery</td>
-                    <td><a href="CalculatorJQuery/index.html" class="btn btn-success"><i
-                                class="fa-solid fa-link"></i></a>
-                    </td>
-                    <td><a href="https://github.com/RachitSharma-191927/Nagarro_Projects/tree/master/CalculatorJQuery"
-                            class="btn btn-primary"><i class="fa-brands fa-github"></i></a></td>
-                </tr>
-                <tr>
-                    <td colspan="3">Calculator JavaScripty</td>
-                    <td><a href="CalculatorUsingJS/index.html" class="btn btn-success"><i
-                                class="fa-solid fa-link"></i></a>
-                    </td>
-                    <td><a href="https://github.com/RachitSharma-191927/Nagarro_Projects/tree/master/CalculatorUsingJS"
-                            class="btn btn-primary"><i class="fa-brands fa-github"></i></a></td>
-                </tr>
-                <tr>
-                    <td colspan="3">Movie Api</td>
-                    <td><a href="MovieApi/index.html" class="btn btn-success"><i class="fa-solid fa-link"></i></a>
-                    </td>
-                    <td><a href="https://github.com/RachitSharma-191927/Nagarro_Projects/tree/master/MovieApi"
-                            class="btn btn-primary"><i class="fa-brands fa-github"></i></a></td>
-                </tr>
-                <tr>
-                    <td colspan="3">Twitter FrontEnd</td>
-                    <td><a href="twitterLogin/" class="btn btn-success"><i class="fa-solid fa-link"></i></a>
-                    </td>
-                    <td><a href="https://github.com/RachitSharma-191927/Nagarro_Projects/tree/master/twitterLogin"
-                            class="btn btn-primary"><i class="fa-brands fa-github"></i></a></td>
-                </tr>
-                <tr>
-                    <td colspan="3">Email Sending</td>
-                    <td><a href="EmailSending/" class="btn btn-success"><i class="fa-solid fa-link"></i></a></td>
-                    <td><a href="https://github.com/RachitSharma-191927/Nagarro_Projects/tree/master/EmailSending"
-                            class="btn btn-primary"><i class="fa-brands fa-github"></i></a></td>
-                </tr>
-            </tbody>
-        </table>
+  <div class="contain">
+    <div class="personal">
+      <div id="user">
+        <img
+          src="https://drive.google.com/uc?export=view&id=1HQnc5uhl8Iq_fDzTUKtWbugP-6UHQwpI"
+          width="40%"
+          alt=""
+        />
+      </div>
+      <h3 class="mt-5">Name : Rachit Sharma</h3>
+      <h3>College : Central University Of Haryana</h3>
+      <h3>Email : rachitsharma3642@gmail.com</h3>
     </div>
+    <table class="table w-50 WebLinks">
+      <thead>
+        <tr>
+          <th colspan="3">Project</th>
+          <th scope="col">Hosting</th>
+          <th scope="col">Github</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td colspan="3">Portfolio</td>
+          <td>
+            <a href="Portfolio/index.html" class="btn btn-success"
+              ><i class="fa-solid fa-link"></i
+            ></a>
+          </td>
+          <td>
+            <a
+              href="https://github.com/RachitSharma-191927/Nagarro_Projects/tree/master/Portfolio"
+              class="btn btn-primary"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">Pokemon</td>
+          <td>
+            <a href="Pokemon/index.html" class="btn btn-success"
+              ><i class="fa-solid fa-link"></i
+            ></a>
+          </td>
+          <td>
+            <a
+              href="https://github.com/RachitSharma-191927/Nagarro_Projects/tree/master/Pokemon"
+              class="btn btn-primary"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">TO DO List Jquery</td>
+          <td>
+            <a href="To_Do_List_Jquery/index.html" class="btn btn-success"
+              ><i class="fa-solid fa-link"></i
+            ></a>
+          </td>
+          <td>
+            <a
+              href="https://github.com/RachitSharma-191927/Nagarro_Projects/tree/master/To_Do_List_Jquery"
+              class="btn btn-primary"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">TO DO List JS</td>
+          <td>
+            <a href="Nagarro_To_do_JS/index.html" class="btn btn-success"
+              ><i class="fa-solid fa-link"></i
+            ></a>
+          </td>
+          <td>
+            <a
+              href="https://github.com/RachitSharma-191927/Nagarro_Projects/tree/master/Nagarro_To_do_JS"
+              class="btn btn-primary"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">Cricket Match Score</td>
+          <td>
+            <a href="cricket_match/index.html" class="btn btn-success"
+              ><i class="fa-solid fa-link"></i
+            ></a>
+          </td>
+          <td>
+            <a
+              href="https://github.com/RachitSharma-191927/Nagarro_Projects/tree/master/cricket_match"
+              class="btn btn-primary"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">Form Validations</td>
+          <td>
+            <a href="NagarroFormValidation/index.html" class="btn btn-success"
+              ><i class="fa-solid fa-link"></i
+            ></a>
+          </td>
+          <td>
+            <a
+              href="https://github.com/RachitSharma-191927/Nagarro_Projects/tree/master/NagarroFormValidation"
+              class="btn btn-primary"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">Text Copy Website</td>
+          <td>
+            <a href="Nagarro_Text_copy/index.html" class="btn btn-success"
+              ><i class="fa-solid fa-link"></i
+            ></a>
+          </td>
+          <td>
+            <a
+              href="https://github.com/RachitSharma-191927/Nagarro_Projects/tree/master/Nagarro_Text_copy"
+              class="btn btn-primary"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">Pop Up Website</td>
+          <td>
+            <a href="POP_up/" class="btn btn-success"
+              ><i class="fa-solid fa-link"></i
+            ></a>
+          </td>
+          <td>
+            <a
+              href="https://github.com/RachitSharma-191927/Nagarro_Projects/tree/master/POP_up"
+              class="btn btn-primary"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">Number Fetch</td>
+          <td>
+            <a href="NumberFetch/index2.html" class="btn btn-success"
+              ><i class="fa-solid fa-link"></i
+            ></a>
+          </td>
+          <td>
+            <a
+              href="https://github.com/RachitSharma-191927/Nagarro_Projects/tree/master/NumberFetch"
+              class="btn btn-primary"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">Image Slider</td>
+          <td>
+            <a href="Image_Slider/index.html" class="btn btn-success"
+              ><i class="fa-solid fa-link"></i
+            ></a>
+          </td>
+          <td>
+            <a
+              href="https://github.com/RachitSharma-191927/Nagarro_Projects/tree/master/Image-Slider"
+              class="btn btn-primary"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">Weight Converter</td>
+          <td>
+            <a href="NagarroWeightConverter/index.html" class="btn btn-success"
+              ><i class="fa-solid fa-link"></i
+            ></a>
+          </td>
+          <td>
+            <a
+              href="https://github.com/RachitSharma-191927/Nagarro_Projects/tree/master/NagarroWeightConverter/index.html"
+              class="btn btn-primary"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">Server BackEnd</td>
+
+          <td>
+            <a
+              href="https://github.com/RachitSharma-191927/Nagarro_Projects/tree/master/CreatingServer"
+              class="btn btn-primary"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">EJS Sending Node</td>
+
+          <td>
+            <a
+              href="https://github.com/RachitSharma-191927/Nagarro_Projects/tree/master/EjsSending"
+              class="btn btn-primary"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">Mongo DB connection</td>
+
+          <td>
+            <a
+              href="https://github.com/RachitSharma-191927/Nagarro_Projects/tree/master/MongoDBConnection"
+              class="btn btn-primary"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">MY-Sql Connection</td>
+
+          <td>
+            <a
+              href="https://github.com/RachitSharma-191927/Nagarro_Projects/tree/master/MysqlDatabaseConnection"
+              class="btn btn-primary"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">Theme Changer</td>
+          <td>
+            <a href="ThemeChanger/index.html" class="btn btn-success"
+              ><i class="fa-solid fa-link"></i
+            ></a>
+          </td>
+          <td>
+            <a
+              href="https://github.com/RachitSharma-191927/Nagarro_Projects/tree/master/ThemeChanger"
+              class="btn btn-primary"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">Calculator Jquery</td>
+          <td>
+            <a href="CalculatorJQuery/index.html" class="btn btn-success"
+              ><i class="fa-solid fa-link"></i
+            ></a>
+          </td>
+          <td>
+            <a
+              href="https://github.com/RachitSharma-191927/Nagarro_Projects/tree/master/CalculatorJQuery"
+              class="btn btn-primary"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">Calculator JavaScripty</td>
+          <td>
+            <a href="CalculatorUsingJS/index.html" class="btn btn-success"
+              ><i class="fa-solid fa-link"></i
+            ></a>
+          </td>
+          <td>
+            <a
+              href="https://github.com/RachitSharma-191927/Nagarro_Projects/tree/master/CalculatorUsingJS"
+              class="btn btn-primary"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">Movie Api</td>
+          <td>
+            <a href="MovieApi/index.html" class="btn btn-success"
+              ><i class="fa-solid fa-link"></i
+            ></a>
+          </td>
+          <td>
+            <a
+              href="https://github.com/RachitSharma-191927/Nagarro_Projects/tree/master/MovieApi"
+              class="btn btn-primary"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">Twitter FrontEnd</td>
+          <td>
+            <a href="twitterLogin/" class="btn btn-success"
+              ><i class="fa-solid fa-link"></i
+            ></a>
+          </td>
+          <td>
+            <a
+              href="https://github.com/RachitSharma-191927/Nagarro_Projects/tree/master/twitterLogin"
+              class="btn btn-primary"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">Email Sending</td>
+          <td>
+            <a href="EmailSending/" class="btn btn-success"
+              ><i class="fa-solid fa-link"></i
+            ></a>
+          </td>
+          <td>
+            <a
+              href="https://github.com/RachitSharma-191927/Nagarro_Projects/tree/master/EmailSending"
+              class="btn btn-primary"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">Ecommerce Front-End</td>
+          <td>
+            <a href="BoatFrontEnd/" class="btn btn-success"
+              ><i class="fa-solid fa-link"></i
+            ></a>
+          </td>
+          <td>
+            <a
+              href="https://github.com/RachitSharma-191927/Nagarro_Projects/tree/master/BoatFrontEnd"
+              class="btn btn-primary"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 </body>

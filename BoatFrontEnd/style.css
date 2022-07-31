@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  background-color: black;
+}
+.nav-item {
+  padding: 10px;
+}
+
+.dropdown-menu {
+  background-color: black;
+  color: white;
+}
+
+.dropdown-menu a {
+  color: white;
+}
+
+.dropdown-item:hover {
+  background-color: black;
+  color: grey;
+}
+
+#rarrow {
+  color: red;
+  background-color: red;
+}
+
+.cut {
+  text-decoration: line-through;
+}
+
+.imgs {
+  height: 300px;
+}
+.card {
+  background-color: #e3e3e3;
+}
+
+.card-body {
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: 2px;
+}
+.card-text {
+  font-size: small;
+}
+
+.car-btn:hover {
+  background-color: red;
+}
+
+.colorbg {
+  background-color: black;
+}
+
+#flash {
+  border-radius: 5px;
+}
