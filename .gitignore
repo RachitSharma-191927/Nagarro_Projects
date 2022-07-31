@@ -1,2 +1,3 @@
 /EjsSending/node_modules/*
-/MysqlConnection/node_modules/*
+/MysqlDatabaseConnection/node_modules/*
+/MongoDBConnection/node_modules/*
