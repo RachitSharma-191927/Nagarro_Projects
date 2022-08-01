@@ -1,3 +1,4 @@
 /EjsSending/node_modules/*
 /MysqlDatabaseConnection/node_modules/*
 /MongoDBConnection/node_modules/*
+/JokesApiBackendStore/node_modules/*
