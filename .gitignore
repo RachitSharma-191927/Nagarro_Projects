@@ -1,4 +1,8 @@
-/EjsSending/node_modules/*
-/MysqlDatabaseConnection/node_modules/*
-/MongoDBConnection/node_modules/*
-/JokesApiBackendStore/node_modules/*
+# /EjsSending/node_modules/*
+# /MysqlDatabaseConnection/node_modules/*
+# /MongoDBConnection/node_modules/*
+# /JokesApiBackendStore/node_modules/*
+# /MovieAdditionRestFulApi/node_modules/*
+*.env
+*.json
+*/node_modules/*

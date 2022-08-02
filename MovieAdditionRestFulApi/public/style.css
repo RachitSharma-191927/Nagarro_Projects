@@ -1,0 +1,47 @@
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+/*  */
+#contain {
+  margin-top: 100px;
+  height: 50vh;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+input,
+label {
+  display: block;
+  margin: 5px;
+}
+label {
+  color: white;
+  width: 150px;
+}
+
+.mData {
+  display: flex;
+}
+
+.btns {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.btns button {
+  flex: 1;
+  max-width: 100px;
+}
+#header {
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
