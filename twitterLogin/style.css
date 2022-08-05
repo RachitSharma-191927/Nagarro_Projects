@@ -10,8 +10,8 @@ body {
 .wholeContainer {
   width: 100%;
   display: flex;
+  flex-wrap: wrap-reverse;
   justify-content: flex-start;
-  height: 110vh;
 }
 
 .imgs,
@@ -19,9 +19,13 @@ body {
   flex: 1;
 }
 .imgs {
-  min-width: 52%;
+  flex: 1 1 300px;
+  max-width: 800px;
 }
-
+.data {
+  flex: 1 1 300px;
+  max-width: calc(100vh-800px);
+}
 #timage {
   width: 100%;
   height: 100%;
@@ -74,8 +78,8 @@ button {
 }
 
 #bottom {
-  background-color: whitesmoke;
-  color: grey;
+  background-color: black;
+  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -89,4 +93,8 @@ li {
   font-size: small;
   padding: 10px;
   list-style-type: none;
+}
+
+a {
+  color: blue;
 }
