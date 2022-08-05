@@ -1,0 +1,8 @@
+#submits {
+  background-color: red;
+  padding: 10px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 90px;
+}
