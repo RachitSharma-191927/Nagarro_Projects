@@ -43,5 +43,4 @@ app.post("/create-checkout-session", async (req, res) => {
 
 app.listen(3000, "localhost", () => {
   console.log("Server Started at port 3000");
-  console.log(process.env.stripeKey);
 });
