@@ -3,6 +3,14 @@
   color: white;
 }
 
+.buttons button a {
+  color: black;
+}
+
+.buttons button:hover a {
+  color: white;
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -27,7 +35,7 @@ body {
 }
 
 .imgs {
-  flex: 1 1 300px;
+  flex: 1 1 500px;
   max-width: 800px;
 }
 
@@ -79,6 +87,7 @@ button {
   border-radius: 20px;
   font-size: medium;
   margin: 1.2rem;
+  outline: none;
 }
 
 #terms {
@@ -111,4 +120,28 @@ li {
 
 a {
   color: blue;
-}/*# sourceMappingURL=style.css.map */
+}
+
+@media only screen and (max-width: 1200px) {
+  #happen {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  #happen {
+    font-size: 50px;
+  }
+  button {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #happen {
+    font-size: 40px;
+  }
+  button {
+    width: 130%;
+  }
+}

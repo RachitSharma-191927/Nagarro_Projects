@@ -1,634 +1,449 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Boat LifeStyle</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://kit.fontawesome.com/0eaae9cbe1.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="icon"
-      href="//cdn.shopify.com/s/files/1/0057/8938/4802/files/32x32_256x256.png_32x32_2d0995d9-ec86-4c14-b928-71101777194c_96x96.png?v=1647426716"
-      type="image/png"
-    />
-  </head>
 
-  <body class="colorbg m-0 p-0">
-    <div>
-      <nav class="navbar navbar-dark navbar-expand-lg">
-        <div></div>
-        <div class="container-fluid">
-          <a class="navbar-brand w-25 m-0" href="#"
-            ><img
-              src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Boat-Logo_200x_200x_f9c79bf9-9c9a-477d-ab6a-7c889a1f2f70_170x.png?v=1646731229"
-              alt=""
-              style="height: 40px"
-          /></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-5">
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle active"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Shop
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">EarBuds</a></li>
-                  <li><a class="dropdown-item" href="#">Watches</a></li>
-                  <li><a class="dropdown-item" href="#">Grooming</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Daily Deals</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
-                  >Offers Zone</a
-                >
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle active"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  More
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Gifting</a></li>
-                  <li><a class="dropdown-item" href="#">Blogs</a></li>
-                  <li><a class="dropdown-item" href="#">Carrers</a></li>
-                </ul>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input
-                class="form-control me-2 rounded-pill"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-            </form>
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a href=""
-                  ><img
-                    src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/navigation-Icon4.png?v=1655206048"
-                    alt=""
-                    style="height: 20px"
-                /></a>
-              </li>
-              <li class="nav-item">
-                <a href="">
-                  <img
-                    src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/gift.png?v=1606314809"
-                    alt=""
-                    style="height: 20px"
-                  />
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="">
-                  <img
-                    src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/navigation-Icon-3.png?v=1655206047"
-                    alt=""
-                    style="height: 20px"
-                  />
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </div>
-    <div
-      id="carouselExampleControls"
-      class="carousel slide carousel-fade"
-      data-bs-ride="carousel"
-    >
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img
-            src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/sail_1400x.jpg?v=1658560196"
-            class="d-block w-100"
-            alt="..."
-          />
-        </div>
-        <div class="carousel-item">
-          <img
-            src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/A121-website-banner_1400x.jpg?v=1658560096"
-            class="d-block w-100"
-            alt="..."
-          />
-        </div>
-        <div class="carousel-item">
-          <img
-            src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Collection-Banner_346efdc6-82b3-4370-87b9-e018fe298c09_1400x.jpg?v=1658677055"
-            class="d-block w-100"
-            alt="..."
-          />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Boat LifeStyle</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/0eaae9cbe1.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon"
+    href="//cdn.shopify.com/s/files/1/0057/8938/4802/files/32x32_256x256.png_32x32_2d0995d9-ec86-4c14-b928-71101777194c_96x96.png?v=1647426716"
+    type="image/png" />
+</head>
+
+<body class="colorbg m-0 p-0">
+  <div>
+    <nav class="navbar navbar-dark navbar-expand-lg">
+      <div></div>
+      <div class="container-fluid">
+        <a class="navbar-brand w-25 m-0" href="#"><img
+            src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Boat-Logo_200x_200x_f9c79bf9-9c9a-477d-ab6a-7c889a1f2f70_170x.png?v=1646731229"
+            alt="" style="height: 40px" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-5">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Shop
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">EarBuds</a></li>
+                <li><a class="dropdown-item" href="#">Watches</a></li>
+                <li><a class="dropdown-item" href="#">Grooming</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Daily Deals</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Offers Zone</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                More
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Gifting</a></li>
+                <li><a class="dropdown-item" href="#">Blogs</a></li>
+                <li><a class="dropdown-item" href="#">Carrers</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2 rounded-pill" type="search" placeholder="Search" aria-label="Search" />
+          </form>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href=""><img
+                  src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/navigation-Icon4.png?v=1655206048" alt=""
+                  style="height: 20px" /></a>
+            </li>
+            <li class="nav-item">
+              <a href="">
+                <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/navigation-Icon-3.png?v=1655206047"
+                  alt="" style="height: 20px" />
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleContols"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </nav>
+  </div>
+  <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/sail_1400x.jpg?v=1658560196"
+          class="d-block w-100" alt="..." />
+      </div>
+      <div class="carousel-item">
+        <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/A121-website-banner_1400x.jpg?v=1658560096"
+          class="d-block w-100" alt="..." />
+      </div>
+      <div class="carousel-item">
+        <img
+          src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Collection-Banner_346efdc6-82b3-4370-87b9-e018fe298c09_1400x.jpg?v=1658677055"
+          class="d-block w-100" alt="..." />
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleContols" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="w-100 colorbg m-0 pb-5 pt-5">
+    <h3 class="text-center mt-5 text-white">SAIL With Boat</h3>
+    <div class="d-flex w-100 m-4 justify-content-center">
+      <div class="w-25 bg-warning p-2 d-flex" id="flash">
+        <div class="col-4 fw-bold">
+          <i class="fa-solid fa-bolt"></i> Flash Sale
+        </div>
+        <div class="col-8 d-flex justify-content-around fw-bold">
+          Ending in :
+          <div id="hour"></div>
+          <div id="minute"></div>
+          <div id="second"></div>
+          <div id="msecond" class="bg-white ps-2 pe-2"></div>
+        </div>
+      </div>
+    </div>
+    <div id="carouselExample" class="carousel slide carousel-fade w-100" data-bs-ride="carousel">
+      <div class="carousel-inner w-100">
+        <div class="carousel-item active w-100">
+          <div class="d-flex row justify-content-center">
+            <div class="card col-3 m-3" style="width: 20rem">
+              <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/xtend_black_400x.png?v=1650387008"
+                class="card-img-top imgs" alt="..." />
+              <div class="card-body border-1 p-2">
+                <h5 class="card-title">boAt Rockerx 235</h5>
+                <p class="card-text">
+                  <i class="fa fa-star"></i> 4.8 | 1036 reviews
+                </p>
+                <hr />
+                <p class="card-text">
+                  ₹999 <span class="cut">₹2999</span><br />You Save:₹1991(67%)
+                </p>
+                <a href="#" class="btn btn-warning w-100 text-center">ADD TO CART</a>
+              </div>
+            </div>
+            <div class="card col-3 m-3" id="cardW" style="width: 20rem">
+              <img
+                src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/5324091f-9f39-463f-bf20-e603c796349c_400x.png?v=1625045742"
+                class="card-img-top imgs" alt="..." />
+              <div class="card-body border-1 p-2">
+                <h5 class="card-title">boAt Rockerx 235</h5>
+                <p class="card-text">
+                  <i class="fa fa-star"></i> 4.8 | 1036 reviews
+                </p>
+                <hr />
+                <p class="card-text">
+                  ₹999 <span class="cut">₹2999</span><br />You Save:₹1991(67%)
+                </p>
+                <a href="#" class="btn btn-warning w-100 text-center">ADD TO CART</a>
+              </div>
+            </div>
+            <div class="card col-3 m-3" id="cardW" style="width: 20rem">
+              <img
+                src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/2c9f9a3f-84d6-4470-a077-41994c6a26c9_400x.png?v=1624897000"
+                class="card-img-top imgs" alt="..." />
+              <div class="card-body border-1 p-2">
+                <h5 class="card-title">boAt Rockerx 235</h5>
+                <p class="card-text">
+                  <i class="fa fa-star"></i> 4.8 | 1036 reviews
+                </p>
+                <hr />
+                <p class="card-text">
+                  ₹999 <span class="cut">₹2999</span><br />You Save:₹1991(67%)
+                </p>
+                <a href="#" class="btn btn-warning w-100 text-center">ADD TO CART</a>
+              </div>
+            </div>
+            <div class="card col-3 m-3" id="cardW" style="width: 20rem">
+              <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main-img-2_400x.png?v=1616562632"
+                class="card-img-top imgs" alt="..." />
+              <div class="card-body border-1 p-2">
+                <h5 class="card-title">boAt Rockerx 235</h5>
+                <p class="card-text">
+                  <i class="fa fa-star"></i> 4.8 | 1036 reviews
+                </p>
+                <hr />
+                <p class="card-text">
+                  ₹999 <span class="cut">₹2999</span><br />You Save:₹1991(67%)
+                </p>
+                <a href="#" class="btn btn-warning w-100 text-center">ADD TO CART</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item w-100">
+          <div class="d-flex row justify-content-center">
+            <div class="card col-3 m-3" id="cardW" style="width: 20rem">
+              <img
+                src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main1_f30681d9-fddb-4997-bfcb-503fcc258a5c_400x.png?v=1646392933"
+                class="card-img-top imgs" alt="..." />
+              <div class="card-body border-1 p-2">
+                <h5 class="card-title">boAt Rockerx 235</h5>
+                <p class="card-text">
+                  <i class="fa fa-star"></i> 4.8 | 1036 reviews
+                </p>
+                <hr />
+                <p class="card-text">
+                  ₹999 <span class="cut">₹2999</span><br />You Save:₹1991(67%)
+                </p>
+                <a href="#" class="btn btn-warning w-100 text-center">ADD TO CART</a>
+              </div>
+            </div>
+            <div class="card col-3 m-3" id="cardW" style="width: 20rem">
+              <img
+                src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main_blue_708eb679-d90c-4287-83e7-60a83fe6b09e_400x.png?v=1650020838"
+                class="card-img-top imgs" alt="..." />
+              <div class="card-body border-1 p-2">
+                <h5 class="card-title">boAt Rockerx 235</h5>
+                <p class="card-text">
+                  <i class="fa fa-star"></i> 4.8 | 1036 reviews
+                </p>
+                <hr />
+                <p class="card-text">
+                  ₹999 <span class="cut">₹2999</span><br />You Save:₹1991(67%)
+                </p>
+                <a href="#" class="btn btn-warning w-100 text-center">ADD TO CART</a>
+              </div>
+            </div>
+            <div class="card col-3 m-3" id="cardW" style="width: 20rem">
+              <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/fvtfgvt_400x.png?v=1658150489"
+                class="card-img-top imgs" alt="..." />
+              <div class="card-body border-1 p-2">
+                <h5 class="card-title">boAt Rockerx 235</h5>
+                <p class="card-text">
+                  <i class="fa fa-star"></i> 4.8 | 1036 reviews
+                </p>
+                <hr />
+                <p class="card-text">
+                  ₹999 <span class="cut">₹2999</span><br />You Save:₹1991(67%)
+                </p>
+                <a href="#" class="btn btn-warning w-100 text-center">ADD TO CART</a>
+              </div>
+            </div>
+            <div class="card col-3 m-3" id="cardW" style="width: 20rem">
+              <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/xtend_black_400x.png?v=1650387008"
+                class="card-img-top imgs" alt="..." />
+              <div class="card-body border-1 p-2">
+                <h5 class="card-title">boAt Rockerx 235</h5>
+                <p class="card-text">
+                  <i class="fa fa-star"></i> 4.8 | 1036 reviews
+                </p>
+                <hr />
+                <p class="card-text">
+                  ₹999 <span class="cut">₹2999</span><br />You Save:₹1991(67%)
+                </p>
+                <a href="#" class="btn btn-warning w-100 text-center">ADD TO CART</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon car-btn" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleControls"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <button class="carousel-control-next ms-2" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon me-2 car-btn" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-
-    <div class="w-100 colorbg m-0 pb-5 pt-5">
-      <h3 class="text-center mt-5 text-white">SAIL With Boat</h3>
-      <div class="d-flex w-100 m-4 justify-content-center">
-        <div class="w-25 bg-warning p-2 d-flex" id="flash">
-          <div class="col-4 fw-bold">
-            <i class="fa-solid fa-bolt"></i> Flash Sale
-          </div>
-          <div class="col-8 d-flex justify-content-around fw-bold">
-            Ending in :
-            <div id="hour"></div>
-            <div id="minute"></div>
-            <div id="second"></div>
-            <div id="msecond" class="bg-white ps-2 pe-2"></div>
-          </div>
-        </div>
-      </div>
-      <div
-        id="carouselExample"
-        class="carousel slide carousel-fade w-100"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-inner w-100">
-          <div class="carousel-item active w-100">
-            <div class="d-flex row justify-content-center">
-              <div class="card col-3 m-3" style="width: 20rem">
-                <img
-                  src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/xtend_black_400x.png?v=1650387008"
-                  class="card-img-top imgs"
-                  alt="..."
-                />
-                <div class="card-body border-1 p-2">
-                  <h5 class="card-title">boAt Rockerx 235</h5>
-                  <p class="card-text">
-                    <i class="fa fa-star"></i> 4.8 | 1036 reviews
-                  </p>
-                  <hr />
-                  <p class="card-text">
-                    ₹999 <span class="cut">₹2999</span><br />You Save:₹1991(67%)
-                  </p>
-                  <a href="#" class="btn btn-warning w-100 text-center"
-                    >ADD TO CART</a
-                  >
-                </div>
-              </div>
-              <div class="card col-3 m-3" id="cardW" style="width: 20rem">
-                <img
-                  src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/5324091f-9f39-463f-bf20-e603c796349c_400x.png?v=1625045742"
-                  class="card-img-top imgs"
-                  alt="..."
-                />
-                <div class="card-body border-1 p-2">
-                  <h5 class="card-title">boAt Rockerx 235</h5>
-                  <p class="card-text">
-                    <i class="fa fa-star"></i> 4.8 | 1036 reviews
-                  </p>
-                  <hr />
-                  <p class="card-text">
-                    ₹999 <span class="cut">₹2999</span><br />You Save:₹1991(67%)
-                  </p>
-                  <a href="#" class="btn btn-warning w-100 text-center"
-                    >ADD TO CART</a
-                  >
-                </div>
-              </div>
-              <div class="card col-3 m-3" id="cardW" style="width: 20rem">
-                <img
-                  src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/2c9f9a3f-84d6-4470-a077-41994c6a26c9_400x.png?v=1624897000"
-                  class="card-img-top imgs"
-                  alt="..."
-                />
-                <div class="card-body border-1 p-2">
-                  <h5 class="card-title">boAt Rockerx 235</h5>
-                  <p class="card-text">
-                    <i class="fa fa-star"></i> 4.8 | 1036 reviews
-                  </p>
-                  <hr />
-                  <p class="card-text">
-                    ₹999 <span class="cut">₹2999</span><br />You Save:₹1991(67%)
-                  </p>
-                  <a href="#" class="btn btn-warning w-100 text-center"
-                    >ADD TO CART</a
-                  >
-                </div>
-              </div>
-              <div class="card col-3 m-3" id="cardW" style="width: 20rem">
-                <img
-                  src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main-img-2_400x.png?v=1616562632"
-                  class="card-img-top imgs"
-                  alt="..."
-                />
-                <div class="card-body border-1 p-2">
-                  <h5 class="card-title">boAt Rockerx 235</h5>
-                  <p class="card-text">
-                    <i class="fa fa-star"></i> 4.8 | 1036 reviews
-                  </p>
-                  <hr />
-                  <p class="card-text">
-                    ₹999 <span class="cut">₹2999</span><br />You Save:₹1991(67%)
-                  </p>
-                  <a href="#" class="btn btn-warning w-100 text-center"
-                    >ADD TO CART</a
-                  >
-                </div>
+    <h3 class="text-center m-5 text-white">Biggest Launches Top Products</h3>
+    <div id="Example" class="carousel slide carousel-fade w-100" data-bs-ride="carousel">
+      <div class="carousel-inner w-100">
+        <div class="carousel-item active w-100">
+          <div class="d-flex row justify-content-center">
+            <div class="card col-3 m-3" style="width: 20rem">
+              <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/xtend_black_400x.png?v=1650387008"
+                class="card-img-top imgs" alt="..." />
+              <div class="card-body border-1 p-2">
+                <h5 class="card-title">boAt Rockerx 235</h5>
+                <p class="card-text">
+                  <i class="fa fa-star"></i> 4.8 | 1036 reviews
+                </p>
+                <hr />
+                <p class="card-text">
+                  ₹999 <span class="cut">₹2999</span><br />You Save:₹1991(67%)
+                </p>
+                <a href="#" class="btn btn-warning w-100 text-center">ADD TO CART</a>
               </div>
             </div>
-          </div>
-          <div class="carousel-item w-100">
-            <div class="d-flex row justify-content-center">
-              <div class="card col-3 m-3" id="cardW" style="width: 20rem">
-                <img
-                  src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main1_f30681d9-fddb-4997-bfcb-503fcc258a5c_400x.png?v=1646392933"
-                  class="card-img-top imgs"
-                  alt="..."
-                />
-                <div class="card-body border-1 p-2">
-                  <h5 class="card-title">boAt Rockerx 235</h5>
-                  <p class="card-text">
-                    <i class="fa fa-star"></i> 4.8 | 1036 reviews
-                  </p>
-                  <hr />
-                  <p class="card-text">
-                    ₹999 <span class="cut">₹2999</span><br />You Save:₹1991(67%)
-                  </p>
-                  <a href="#" class="btn btn-warning w-100 text-center"
-                    >ADD TO CART</a
-                  >
-                </div>
+            <div class="card col-3 m-3" id="cardW" style="width: 20rem">
+              <img
+                src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/5324091f-9f39-463f-bf20-e603c796349c_400x.png?v=1625045742"
+                class="card-img-top imgs" alt="..." />
+              <div class="card-body border-1 p-2">
+                <h5 class="card-title">boAt Rockerx 235</h5>
+                <p class="card-text">
+                  <i class="fa fa-star"></i> 4.8 | 1036 reviews
+                </p>
+                <hr />
+                <p class="card-text">
+                  ₹999 <span class="cut">₹2999</span><br />You Save:₹1991(67%)
+                </p>
+                <a href="#" class="btn btn-warning w-100 text-center">ADD TO CART</a>
               </div>
-              <div class="card col-3 m-3" id="cardW" style="width: 20rem">
-                <img
-                  src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main_blue_708eb679-d90c-4287-83e7-60a83fe6b09e_400x.png?v=1650020838"
-                  class="card-img-top imgs"
-                  alt="..."
-                />
-                <div class="card-body border-1 p-2">
-                  <h5 class="card-title">boAt Rockerx 235</h5>
-                  <p class="card-text">
-                    <i class="fa fa-star"></i> 4.8 | 1036 reviews
-                  </p>
-                  <hr />
-                  <p class="card-text">
-                    ₹999 <span class="cut">₹2999</span><br />You Save:₹1991(67%)
-                  </p>
-                  <a href="#" class="btn btn-warning w-100 text-center"
-                    >ADD TO CART</a
-                  >
-                </div>
+            </div>
+            <div class="card col-3 m-3" id="cardW" style="width: 20rem">
+              <img
+                src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/2c9f9a3f-84d6-4470-a077-41994c6a26c9_400x.png?v=1624897000"
+                class="card-img-top imgs" alt="..." />
+              <div class="card-body border-1 p-2">
+                <h5 class="card-title">boAt Rockerx 235</h5>
+                <p class="card-text">
+                  <i class="fa fa-star"></i> 4.8 | 1036 reviews
+                </p>
+                <hr />
+                <p class="card-text">
+                  ₹999 <span class="cut">₹2999</span><br />You Save:₹1991(67%)
+                </p>
+                <a href="#" class="btn btn-warning w-100 text-center">ADD TO CART</a>
               </div>
-              <div class="card col-3 m-3" id="cardW" style="width: 20rem">
-                <img
-                  src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/fvtfgvt_400x.png?v=1658150489"
-                  class="card-img-top imgs"
-                  alt="..."
-                />
-                <div class="card-body border-1 p-2">
-                  <h5 class="card-title">boAt Rockerx 235</h5>
-                  <p class="card-text">
-                    <i class="fa fa-star"></i> 4.8 | 1036 reviews
-                  </p>
-                  <hr />
-                  <p class="card-text">
-                    ₹999 <span class="cut">₹2999</span><br />You Save:₹1991(67%)
-                  </p>
-                  <a href="#" class="btn btn-warning w-100 text-center"
-                    >ADD TO CART</a
-                  >
-                </div>
-              </div>
-              <div class="card col-3 m-3" id="cardW" style="width: 20rem">
-                <img
-                  src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/xtend_black_400x.png?v=1650387008"
-                  class="card-img-top imgs"
-                  alt="..."
-                />
-                <div class="card-body border-1 p-2">
-                  <h5 class="card-title">boAt Rockerx 235</h5>
-                  <p class="card-text">
-                    <i class="fa fa-star"></i> 4.8 | 1036 reviews
-                  </p>
-                  <hr />
-                  <p class="card-text">
-                    ₹999 <span class="cut">₹2999</span><br />You Save:₹1991(67%)
-                  </p>
-                  <a href="#" class="btn btn-warning w-100 text-center"
-                    >ADD TO CART</a
-                  >
-                </div>
+            </div>
+            <div class="card col-3 m-3" id="cardW" style="width: 20rem">
+              <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main-img-2_400x.png?v=1616562632"
+                class="card-img-top imgs" alt="..." />
+              <div class="card-body border-1 p-2">
+                <h5 class="card-title">boAt Rockerx 235</h5>
+                <p class="card-text">
+                  <i class="fa fa-star"></i> 4.8 | 1036 reviews
+                </p>
+                <hr />
+                <p class="card-text">
+                  ₹999 <span class="cut">₹2999</span><br />You Save:₹1991(67%)
+                </p>
+                <a href="#" class="btn btn-warning w-100 text-center">ADD TO CART</a>
               </div>
             </div>
           </div>
         </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExample"
-          data-bs-slide="prev"
-        >
-          <span
-            class="carousel-control-prev-icon car-btn"
-            aria-hidden="true"
-          ></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next ms-2"
-          type="button"
-          data-bs-target="#carouselExample"
-          data-bs-slide="next"
-        >
-          <span
-            class="carousel-control-next-icon me-2 car-btn"
-            aria-hidden="true"
-          ></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-      <h3 class="text-center m-5 text-white">Biggest Launches Top Products</h3>
-      <div
-        id="Example"
-        class="carousel slide carousel-fade w-100"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-inner w-100">
-          <div class="carousel-item active w-100">
-            <div class="d-flex row justify-content-center">
-              <div class="card col-3 m-3" style="width: 20rem">
-                <img
-                  src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/xtend_black_400x.png?v=1650387008"
-                  class="card-img-top imgs"
-                  alt="..."
-                />
-                <div class="card-body border-1 p-2">
-                  <h5 class="card-title">boAt Rockerx 235</h5>
-                  <p class="card-text">
-                    <i class="fa fa-star"></i> 4.8 | 1036 reviews
-                  </p>
-                  <hr />
-                  <p class="card-text">
-                    ₹999 <span class="cut">₹2999</span><br />You Save:₹1991(67%)
-                  </p>
-                  <a href="#" class="btn btn-warning w-100 text-center"
-                    >ADD TO CART</a
-                  >
-                </div>
-              </div>
-              <div class="card col-3 m-3" id="cardW" style="width: 20rem">
-                <img
-                  src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/5324091f-9f39-463f-bf20-e603c796349c_400x.png?v=1625045742"
-                  class="card-img-top imgs"
-                  alt="..."
-                />
-                <div class="card-body border-1 p-2">
-                  <h5 class="card-title">boAt Rockerx 235</h5>
-                  <p class="card-text">
-                    <i class="fa fa-star"></i> 4.8 | 1036 reviews
-                  </p>
-                  <hr />
-                  <p class="card-text">
-                    ₹999 <span class="cut">₹2999</span><br />You Save:₹1991(67%)
-                  </p>
-                  <a href="#" class="btn btn-warning w-100 text-center"
-                    >ADD TO CART</a
-                  >
-                </div>
-              </div>
-              <div class="card col-3 m-3" id="cardW" style="width: 20rem">
-                <img
-                  src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/2c9f9a3f-84d6-4470-a077-41994c6a26c9_400x.png?v=1624897000"
-                  class="card-img-top imgs"
-                  alt="..."
-                />
-                <div class="card-body border-1 p-2">
-                  <h5 class="card-title">boAt Rockerx 235</h5>
-                  <p class="card-text">
-                    <i class="fa fa-star"></i> 4.8 | 1036 reviews
-                  </p>
-                  <hr />
-                  <p class="card-text">
-                    ₹999 <span class="cut">₹2999</span><br />You Save:₹1991(67%)
-                  </p>
-                  <a href="#" class="btn btn-warning w-100 text-center"
-                    >ADD TO CART</a
-                  >
-                </div>
-              </div>
-              <div class="card col-3 m-3" id="cardW" style="width: 20rem">
-                <img
-                  src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main-img-2_400x.png?v=1616562632"
-                  class="card-img-top imgs"
-                  alt="..."
-                />
-                <div class="card-body border-1 p-2">
-                  <h5 class="card-title">boAt Rockerx 235</h5>
-                  <p class="card-text">
-                    <i class="fa fa-star"></i> 4.8 | 1036 reviews
-                  </p>
-                  <hr />
-                  <p class="card-text">
-                    ₹999 <span class="cut">₹2999</span><br />You Save:₹1991(67%)
-                  </p>
-                  <a href="#" class="btn btn-warning w-100 text-center"
-                    >ADD TO CART</a
-                  >
-                </div>
+        <div class="carousel-item w-100">
+          <div class="d-flex row justify-content-center">
+            <div class="card col-3 m-3" id="cardW" style="width: 20rem">
+              <img
+                src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main1_f30681d9-fddb-4997-bfcb-503fcc258a5c_400x.png?v=1646392933"
+                class="card-img-top imgs" alt="..." />
+              <div class="card-body border-1 p-2">
+                <h5 class="card-title">boAt Rockerx 235</h5>
+                <p class="card-text">
+                  <i class="fa fa-star"></i> 4.8 | 1036 reviews
+                </p>
+                <hr />
+                <p class="card-text">
+                  ₹999 <span class="cut">₹2999</span><br />You Save:₹1991(67%)
+                </p>
+                <a href="#" class="btn btn-warning w-100 text-center">ADD TO CART</a>
               </div>
             </div>
-          </div>
-          <div class="carousel-item w-100">
-            <div class="d-flex row justify-content-center">
-              <div class="card col-3 m-3" id="cardW" style="width: 20rem">
-                <img
-                  src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main1_f30681d9-fddb-4997-bfcb-503fcc258a5c_400x.png?v=1646392933"
-                  class="card-img-top imgs"
-                  alt="..."
-                />
-                <div class="card-body border-1 p-2">
-                  <h5 class="card-title">boAt Rockerx 235</h5>
-                  <p class="card-text">
-                    <i class="fa fa-star"></i> 4.8 | 1036 reviews
-                  </p>
-                  <hr />
-                  <p class="card-text">
-                    ₹999 <span class="cut">₹2999</span><br />You Save:₹1991(67%)
-                  </p>
-                  <a href="#" class="btn btn-warning w-100 text-center"
-                    >ADD TO CART</a
-                  >
-                </div>
+            <div class="card col-3 m-3" id="cardW" style="width: 20rem">
+              <img
+                src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main_blue_708eb679-d90c-4287-83e7-60a83fe6b09e_400x.png?v=1650020838"
+                class="card-img-top imgs" alt="..." />
+              <div class="card-body border-1 p-2">
+                <h5 class="card-title">boAt Rockerx 235</h5>
+                <p class="card-text">
+                  <i class="fa fa-star"></i> 4.8 | 1036 reviews
+                </p>
+                <hr />
+                <p class="card-text">
+                  ₹999 <span class="cut">₹2999</span><br />You Save:₹1991(67%)
+                </p>
+                <a href="#" class="btn btn-warning w-100 text-center">ADD TO CART</a>
               </div>
-              <div class="card col-3 m-3" id="cardW" style="width: 20rem">
-                <img
-                  src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main_blue_708eb679-d90c-4287-83e7-60a83fe6b09e_400x.png?v=1650020838"
-                  class="card-img-top imgs"
-                  alt="..."
-                />
-                <div class="card-body border-1 p-2">
-                  <h5 class="card-title">boAt Rockerx 235</h5>
-                  <p class="card-text">
-                    <i class="fa fa-star"></i> 4.8 | 1036 reviews
-                  </p>
-                  <hr />
-                  <p class="card-text">
-                    ₹999 <span class="cut">₹2999</span><br />You Save:₹1991(67%)
-                  </p>
-                  <a href="#" class="btn btn-warning w-100 text-center"
-                    >ADD TO CART</a
-                  >
-                </div>
+            </div>
+            <div class="card col-3 m-3" id="cardW" style="width: 20rem">
+              <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/fvtfgvt_400x.png?v=1658150489"
+                class="card-img-top imgs" alt="..." />
+              <div class="card-body border-1 p-2">
+                <h5 class="card-title">boAt Rockerx 235</h5>
+                <p class="card-text">
+                  <i class="fa fa-star"></i> 4.8 | 1036 reviews
+                </p>
+                <hr />
+                <p class="card-text">
+                  ₹999 <span class="cut">₹2999</span><br />You Save:₹1991(67%)
+                </p>
+                <a href="#" class="btn btn-warning w-100 text-center">ADD TO CART</a>
               </div>
-              <div class="card col-3 m-3" id="cardW" style="width: 20rem">
-                <img
-                  src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/fvtfgvt_400x.png?v=1658150489"
-                  class="card-img-top imgs"
-                  alt="..."
-                />
-                <div class="card-body border-1 p-2">
-                  <h5 class="card-title">boAt Rockerx 235</h5>
-                  <p class="card-text">
-                    <i class="fa fa-star"></i> 4.8 | 1036 reviews
-                  </p>
-                  <hr />
-                  <p class="card-text">
-                    ₹999 <span class="cut">₹2999</span><br />You Save:₹1991(67%)
-                  </p>
-                  <a href="#" class="btn btn-warning w-100 text-center"
-                    >ADD TO CART</a
-                  >
-                </div>
-              </div>
-              <div class="card col-3 m-3" id="cardW" style="width: 20rem">
-                <img
-                  src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/xtend_black_400x.png?v=1650387008"
-                  class="card-img-top imgs"
-                  alt="..."
-                />
-                <div class="card-body border-1 p-2">
-                  <h5 class="card-title">boAt Rockerx 235</h5>
-                  <p class="card-text">
-                    <i class="fa fa-star"></i> 4.8 | 1036 reviews
-                  </p>
-                  <hr />
-                  <p class="card-text">
-                    ₹999 <span class="cut">₹2999</span><br />You Save:₹1991(67%)
-                  </p>
-                  <a href="#" class="btn btn-warning w-100 text-center"
-                    >ADD TO CART</a
-                  >
-                </div>
+            </div>
+            <div class="card col-3 m-3" id="cardW" style="width: 20rem">
+              <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/xtend_black_400x.png?v=1650387008"
+                class="card-img-top imgs" alt="..." />
+              <div class="card-body border-1 p-2">
+                <h5 class="card-title">boAt Rockerx 235</h5>
+                <p class="card-text">
+                  <i class="fa fa-star"></i> 4.8 | 1036 reviews
+                </p>
+                <hr />
+                <p class="card-text">
+                  ₹999 <span class="cut">₹2999</span><br />You Save:₹1991(67%)
+                </p>
+                <a href="#" class="btn btn-warning w-100 text-center">ADD TO CART</a>
               </div>
             </div>
           </div>
         </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#Example"
-          data-bs-slide="prev"
-        >
-          <span
-            class="carousel-control-prev-icon car-btn"
-            aria-hidden="true"
-          ></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next ms-2"
-          type="button"
-          data-bs-target="#Example"
-          data-bs-slide="next"
-        >
-          <span
-            class="carousel-control-next-icon me-2 car-btn"
-            aria-hidden="true"
-          ></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#Example" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon car-btn" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next ms-2" type="button" data-bs-target="#Example" data-bs-slide="next">
+        <span class="carousel-control-next-icon me-2 car-btn" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-    <div class="colorbg m-0">
-      <p class="text-center text-white">Developed By &#169;Rachit Sharma</p>
-    </div>
-    <script>
-      var hour = document.querySelector("#hour");
-      var minute = document.querySelector("#minute");
-      var second = document.querySelector("#second");
-      var msecond = document.querySelector("#msecond");
-      function timerUpdate() {
-        var currentTime = new Date();
-        var h = currentTime.getHours();
-        var m = currentTime.getMinutes();
-        var s = currentTime.getSeconds();
-        var ms = currentTime.getMilliseconds();
-        hour.innerHTML = `${24 - h}h`;
-        minute.innerHTML = `${60 - m}m`;
-        second.innerHTML = `${60 - s}s`;
-        setTimeout(timerUpdate, 1000);
-        //Update the hour, minute and second in UI
-      }
-      function mtimerUpdate() {
-        var currentTime = new Date();
+  </div>
+  <div class="colorbg m-0">
+    <p class="text-center text-white">Developed By &#169;Rachit Sharma</p>
+  </div>
+  <script>
+    var hour = document.querySelector("#hour");
+    var minute = document.querySelector("#minute");
+    var second = document.querySelector("#second");
+    var msecond = document.querySelector("#msecond");
+    function timerUpdate() {
+      var currentTime = new Date();
+      var h = currentTime.getHours();
+      var m = currentTime.getMinutes();
+      var s = currentTime.getSeconds();
+      var ms = currentTime.getMilliseconds();
+      hour.innerHTML = `${24 - h}h`;
+      minute.innerHTML = `${60 - m}m`;
+      second.innerHTML = `${60 - s}s`;
+      setTimeout(timerUpdate, 1000);
+      //Update the hour, minute and second in UI
+    }
+    function mtimerUpdate() {
+      var currentTime = new Date();
 
-        var ms = currentTime.getMilliseconds();
-        msecond.innerHTML = `${ms % 10}`;
-        setTimeout(mtimerUpdate, 100);
-        //Update the hour, minute and second in UI
-      }
-      mtimerUpdate();
-      timerUpdate();
-    </script>
-  </body>
+      var ms = currentTime.getMilliseconds();
+      msecond.innerHTML = `${ms % 10}`;
+      setTimeout(mtimerUpdate, 100);
+      //Update the hour, minute and second in UI
+    }
+    mtimerUpdate();
+    timerUpdate();
+  </script>
+</body>
+
 </html>
